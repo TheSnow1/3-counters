@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  user-select: none;
+}
+
+.container {
+  height: 100vh;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.a-container {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  text-align: center;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+}
+
+.item1 {
+  background-color: lightskyblue;
+}
+
+.item2 {
+  background-color: blueviolet;
+}
+.item3 {
+  background-color: lightseagreen;
+}
